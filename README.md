@@ -1,2 +1,2 @@
 # HTB
-I will share any exploits I make on htb platforms.
+Here I share any exploits I make on htb (hacke the box) platforms.
