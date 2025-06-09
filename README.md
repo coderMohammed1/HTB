@@ -6,7 +6,8 @@ Hi! If you want to contribute, please share your exploit code as follows:
 
 2- Create a pull request
 
-Rules:
+# Rules:
+
 1- The exploit must target a retired HTB machine.
 
 2- Please include comments in your code to explain what it does.
