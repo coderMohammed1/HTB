@@ -13,3 +13,5 @@ Hi! If you want to contribute, please share your exploit code as follows:
 2- Please include comments in your code to explain what it does.
 
 3- Name your script exactly as the machine's name.
+
+4- Do not fully relay on AI );
