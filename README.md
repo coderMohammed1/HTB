@@ -1,4 +1,5 @@
-HTB
+#HTB exploits!
+
 Hi! If you want to contribute, please share your exploit code as follows:
 
 1- Fork the repository
